@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="7" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-22T15:15:46 IST" name="Default suite" finished-at="2023-03-22T15:16:32 IST" duration-ms="45440">
+    <groups>
+    </groups>
+    <test started-at="2023-03-22T15:15:46 IST" name="Default test" finished-at="2023-03-22T15:16:32 IST" duration-ms="45440">
+      <class name="Testcase.TestCases">
+        <test-method is-config="true" signature="startup()[pri:0, instance:Testcase.TestCases@21de60b4]" started-at="2023-03-22T15:15:46 IST" name="startup" finished-at="2023-03-22T15:15:59 IST" duration-ms="12348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method signature="signUpTC_002()[pri:0, instance:Testcase.TestCases@21de60b4]" started-at="2023-03-22T15:15:59 IST" name="signUpTC_002" finished-at="2023-03-22T15:16:32 IST" duration-ms="33028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpTC_002 -->
+        <test-method is-config="true" signature="closeup()[pri:0, instance:Testcase.TestCases@21de60b4]" started-at="2023-03-22T15:16:32 IST" name="closeup" finished-at="2023-03-22T15:16:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeup -->
+      </class> <!-- Testcase.TestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
