@@ -37,6 +37,10 @@ public class TestCases extends Baseclass{
     	obj.createacc1();
     	obj.returnPage();
     	obj.acc1();
+	TakesScreenshot scrShot =((TakesScreenshot)driver);
+        File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
+        File DestFile=new File("C:\\Users\\Hp\\eclipse-workspace\\eBuy\\screenshot\\screenshot.png");
+        FileUtils.copyFile(SrcFile, DestFile);
     	
     }
     @Test
